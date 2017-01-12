@@ -1,0 +1,29 @@
+
+
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             >
+
+            <com.xilehang.tencent.tools.MyGallery3D
+                android:id="@+id/mygallery3d"
+                android:layout_width="match_parent"
+                android:background="#ff0000"
+                android:layout_centerHorizontal="true"
+                android:layout_height="300px" >
+            </com.xilehang.tencent.tools.MyGallery3D>
+
+            <ImageView
+                android:id="@+id/showImage"
+                android:layout_width="200dp"
+                android:layout_height="400dp"
+                android:background="#00ff00"
+                android:layout_below="@+id/mygallery3d"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+ 
+
